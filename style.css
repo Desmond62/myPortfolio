@@ -436,7 +436,7 @@ text-decoration: none;
         margin-bottom: 10px;
     }
     .push p{
-        font-size: 12px;
+        font-size: 14px;
     }
     .push h5{
         font-weight: 500;
@@ -446,13 +446,13 @@ text-decoration: none;
         font-size: 18px;
     }
     .welcome P{
-        font-size: 12px;  
+        font-size: 14px;  
     }
     .full0 h4{
         font-size: 18px;
     }
     .full0 p{
-        font-size: 12px;  
+        font-size: 14px;  
     }
     .full2{
         font-size: 18px;
@@ -594,7 +594,7 @@ text-decoration: none;
         }
         @media(max-width: 400px){
             .accordion button{
-                font-size: 10px;
+                font-size: 13px;
                background-color: grey;
             }
             .accordion-body{
@@ -614,7 +614,7 @@ text-decoration: none;
                 font-size: 13px;
             }
             .push p{
-                font-size: 10px;
+                font-size: 13px;
             }
         }
         @media(max-width: 380px){
