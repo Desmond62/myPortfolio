@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nava{
+    background-color: rgb(0, 0, 0, 0.9);
+    
+   
+}
+.ani img{
+    width: 100px;
+    height: 50px;
+    animation: move 10s infinite;
+}
+@keyframes move{
+0% {transform: translate(0px);}
+100% {transform: translate(100px);}
+}
+.nava2 a{
+color: white;   
+font-weight: 600;
+font-size: 18px;
+text-decoration: none;
+}
+.nava2 a:hover{
+    color: rgb(194, 194, 194);
+    border-bottom: 1px solid goldenrod;
+    width: fit-content;
+}
+.spa{
+    font-weight: 800;
+    font-size: 25px;   
+}
+.spa2 a{
+    text-decoration: none;
+    color: white;
+}
+.spa2 a:hover{
+    color: white;
+}
+
+.unorder li{
+    padding: 0px 10px ;
+
+}
+
+#Greeting{
+    background-color: rgba(16, 16, 16, 0.9);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.sp{
+    animation: scale 5s infinite;
+}
+@keyframes scale{
+    0% {color: white;}
+     50% {color: white;}
+    75% {color: white;}
+    100% {color: rgb(171, 103, 103);}
+}
+.man1 {
+    margin-top: 45px;
+}
+.man{
+    margin-top: 200px;
+}
+.man span{
+  background-color: gainsboro;
+   padding: 18px 20px;
+   border-radius: 50px;
+   font-size: 25px; 
+   font-weight: 700;
+}
+
+.man i{
+    color: goldenrod;
+    font-size: 30px;
+       font-weight: 700;
+}
+
+.man1 span{
+  background-color: goldenrod;
+   padding: 16px 30px;
+   color: black;
+   border-radius: 50px;
+   font-size: 25px; 
+   font-weight: 600;
+}
+.man1 span:hover{
+  background-color: rgb(255, 206, 82);
+ 
+}
+.man1 a{
+    text-decoration: none;
+}
+
+/* About Me Section */
+#con{
+    background-image: url('image/digital.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* animation: mymove 25s; */
+}
+@keyframes mymove{
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}
+.full0 h4{
+    font-weight: 500;
+    font-size: 30px;
+}
+.full0 p{
+    color: rgb(185, 185, 185);   
+}
+
+.hov a{
+ color: rgb(133, 133, 240); 
+  text-decoration: none;   
+}
+.hov a:hover{
+   color: blue; 
+}
+.full{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: rgb(185, 185, 185);   
+}
+.full2{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.shef1{
+    margin-left: 67px;
+}
+.shef{
+    margin-left: 87px;
+}
+
+.true img{
+    width: 400px;
+    height: 370px;
+    margin-left: 100px;
+    border-radius: 30px;
+ 
+}
+
+/* Web Developer */
+
+#myGreet{
+    /* background-color: rgba(16, 16, 16, 0.9); */
+    background-image: url(image/light.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(0, 0, 0, 0.9); */
+}
+
+.welcome h5{
+    color: white;
+    font-size: 25px;
+    text-shadow: 3px 3px 7px black;
+}
+.welcome P{
+    color: rgb(225, 224, 224);   
+    
+}
+.social a{
+ color: rgb(133, 133, 240); 
+  text-decoration: none;   
+}
+.social a:hover{
+   color: blue; 
+}
+
+/* Carousel Section */
+
+.caro{
+    background-color: rgba(16, 16, 16, 0.9);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hea h4{
+    font-size: 40px;
+}
+.push{
+ display: flex;
+ /* background-color: rgb(83, 79, 83); */
+ padding: 30px 20px; 
+ border-radius: 30px;
+ box-shadow: 3px 3px 7px black;
+ background-color: 0, 0, 0, 0.9;
+}
+.push img{
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+.push p{
+    color: rgb(225, 224, 224);    
+}
+.push h5{
+    font-weight: 600;
+    font-size: 20px;
+}
+.par1{
+    font-size: 15px;
+}
+.par{
+    font-size: 13px;
+}
+
+/* Accordion Section */
+.accord{
+  background-image: url('image/diamond.jpg'); 
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* .wel h4{
+    font-size: 50px;
+    font-weight: 200 ;
+} */
+
+.bod{
+    color: white;
+    background-color: rgba(16, 16, 16, 0.9);
+
+}
+.accordion button{
+    font-size: 23px;
+   background-color: grey;
+}
+
+/* Form Section */
+.pattern{
+    background-image: url('image/smoke.jpg'); 
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+
+  .one input{
+    font-size: 15px;
+  }  
+.one label{
+    color: goldenrod;  
+}
+.two label{
+    color: goldenrod;  
+}
+.bt button{
+   padding: 8px 50px; 
+   border: none;
+   background-color: transparent;
+   border: 2px solid white;
+   color: goldenrod;
+   border-radius: 20px;
+}
+.bt button:hover{
+    background-color: gainsboro;
+    color: black;
+    border: 2px solid goldenrod;
+    font-weight: 700;
+}
+.fa-arrow-right{
+    transform: rotate(320deg)
+}
+
+.footer{
+    margin-left: 100px;
+}
+.footer1 h4{
+    font-size: 35px;
+}
+.footer1 a{
+    color: goldenrod;
+    text-decoration: none;
+}
+.footer1 a:hover{
+    color: gold;
+}
+.footer2 a{
+    color: grey;
+    text-decoration: none;
+}
+.footer i{
+    margin:0px 8px;
+    font-size: 25px;
+}
+.footer2 a:hover{
+    color: gainsboro;
+    transition: .2s ease-in-out;
+}
+
+
+/* Media Quries */
+@media(max-width: 1400px){
+ @keyframes move{
+0% {transform: translate(-40px);}
+100% {transform: translate(20px);}
+}   
+}
+@media(max-width: 1199px){
+ @keyframes move{
+0% {transform: translate(-10px);}
+100% {transform: translate(40px);}
+}   
+.push{
+    flex-wrap: wrap;
+}
+.push img{
+    margin-bottom: 10px;
+}
+.welcome h5{
+    font-size: 20px;
+}
+.welcome P{
+    font-size: 15px;  
+}
+.full0 h4{
+    font-size: 20px;
+}
+.full0 p{
+    font-size: 15px;  
+}
+.full2{
+    font-size: 20px;
+}
+.shef1{
+    font-size: 15px;
+    margin-left: 67px;
+}
+.shef{
+    font-size: 15px;
+    margin-left: 87px;
+}
+.she{
+    font-size: 15px;
+}
+.hea h4{
+    font-size: 30px;
+}
+.push p{
+    font-size: 15px;
+}
+.wel h4{
+    font-size: 30px;
+    font-weight: 200 ;
+}
+.accordion button{
+    font-size: 20px;
+   background-color: grey;
+}
+}
+@media(max-width: 1170px){
+.true img{
+    margin-left: 60px;
+}
+}
+@media(max-width: 1054px){
+    .true img{
+        margin-left: 20px;
+    }
+    @keyframes move{
+        0% {transform: translate(-30px);}
+        100% {transform: translate(20px);}
+        }
+    }
+    @media(max-width: 991px){
+        .cop p{
+            font-size: 12px;
+        }
+        .one label{
+            font-size: 12px;
+        }
+        .two label{
+            font-size: 12px;
+        }
+        .true img{
+            width: 100%;
+            height: 100%;
+            margin-left: 0px;
+        }
+        .man{
+            margin-top: 150px;
+        }
+        .man span{
+           padding: 18px 20px;
+           font-size: 20px; 
+           font-weight: 500;
+        }
+        
+        .man i{
+            font-size: 20px;
+               font-weight: 500;
+        }
+        
+        .man1 span{
+           padding: 16px 30px;
+           font-size: 20px; 
+           font-weight: 500;
+        }
+        .footer i{
+            margin:0px 6px;
+            font-size: 25px;
+        }
+    .footer1 h4{
+        font-size: 25px;
+    }
+    .footer1 a{
+       font-size: 15px;
+    }
+    .push img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+    }
+    .push p{
+        font-size: 12px;
+    }
+    .push h5{
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .welcome h5{
+        font-size: 18px;
+    }
+    .welcome P{
+        font-size: 12px;  
+    }
+    .full0 h4{
+        font-size: 18px;
+    }
+    .full0 p{
+        font-size: 12px;  
+    }
+    .full2{
+        font-size: 18px;
+    }
+    .shef1{
+        font-size: 12px;
+        margin-left: 67px;
+    }
+    .shef{
+        font-size: 12px;
+        margin-left: 87px;
+    }
+    .she{
+        font-size: 12px;
+    }
+    .hea h4{
+        font-size: 25px;
+    }
+    .wel h4{
+        font-size: 20px;
+        font-weight: 200 ;
+    }
+    .accordion button{
+        font-size: 15px;
+       background-color: grey;
+    }
+    .accordion-body{
+        font-size: 12px;
+    }
+        }
+
+        @media(max-width: 767px){
+            .footer{
+              margin-left: 0px;
+            } 
+            .man span{
+                background-color: gainsboro;
+                 padding: 10px 20px;
+                 border-radius: 50px;
+                 font-size: 25px; 
+                 font-weight: 700;
+              }
+            .man1 span{
+                background-color: goldenrod;
+                 padding: 12px 30px;
+                 color: black;
+                 border-radius: 50px;
+                 font-size: 20px; 
+                 font-weight: 400;
+              }
+              .man{
+                margin-top: 0px;
+            }
+            .man0 img{
+                width: 80%;
+                height: 400px;
+            }
+            .man1 {
+                margin-top: 20px;
+            }
+            
+        }
+
+        @media(max-width: 470px){
+            .unorder a{
+                font-size: 14px;
+            }
+            .bt button{
+                padding: 3px 25px;
+            }
+            .footer1 h4{
+                font-size: 18px;
+            }
+            .footer p{
+                font-size: 12px;
+            }
+            .hea h4{
+                font-size: 18px;
+            }
+            .man span{
+                background-color: gainsboro;
+                 padding: 10px 20px;
+                 border-radius: 50px;
+                 font-size: 17px; 
+                 font-weight: 700;
+              }
+            .man1 span{
+                background-color: goldenrod;
+                 padding: 12px 30px;
+                 color: black;
+                 border-radius: 50px;
+                 font-size: 15px; 
+                 font-weight: 400;
+                 
+              }
+            .man0 img{
+                width: 100%;
+                height: 280px;
+            }
+            .push{
+                flex-wrap: wrap;
+                margin: -16%;
+                margin-top: 20px;
+                height: 80%;
+
+            }
+           
+            .accordion button{
+                font-size: 12px;
+               background-color: grey;
+            }
+            .accordion-body{
+                font-size: 12px;
+            }
+            .accord{
+                background-image: url('image/diamond.jpg'); 
+                height: 100%; 
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+              }
+              @keyframes move{
+                0% {transform: translate(0px);}
+                100% {transform: translate(100px);}
+                }
+                #myGreet{
+                    background-size: 100% 100%;
+               
+                }
+                .full2{
+                    font-size: 15px;
+                }
+                .shef1{
+                    margin-left: 55px;
+                }
+                .shef{
+                    margin-left: 70px;
+                }
+        }
+        @media(max-width: 400px){
+            .accordion button{
+                font-size: 10px;
+               background-color: grey;
+            }
+            .accordion-body{
+                font-size: 10px;
+            }
+            .push{
+                flex-wrap: wrap;
+                margin: -23%;
+                margin-top: 20px;
+                height: 80%;
+            }
+            .push img{
+                width: 60px;
+                height: 60px;
+            }
+            .push h5{
+                font-size: 13px;
+            }
+            .push p{
+                font-size: 10px;
+            }
+        }
+        @media(max-width: 380px){
+            .push{
+                flex-wrap: wrap;
+                margin:-5% -26%;
+                margin-top: 20px;
+                height: 80%;
+
+            }
+         
+        }
+        @media(max-width: 344px){
+            .push{
+                flex-wrap: wrap;
+                margin:-5% -30%;
+                margin-top: 20px;
+                height: 80%;
+
+            }
+        }
+        @media(max-width: 316px){
+            .man0 img{
+                width: 100%;
+                height: 200px;
+            }
+            .shef1{
+                margin-left: 40px;
+            }
+            .shef{
+                margin-left: 50px;
+            }
+            .full0 h4{
+                font-size: 16px;
+            }
+            .push{
+                flex-wrap: wrap;
+                margin: -38%;
+                margin-top: 20px;
+                height: 78%;
+            }
+            .full2{
+                font-size: 12px;
+            }
+            .man span{
+                background-color: gainsboro;
+                 padding: 10px 20px;
+                 border-radius: 50px;
+                 font-size: 14px; 
+                 font-weight: 700;
+              }
+            .man1 span{
+                background-color: goldenrod;
+                 padding: 12px 30px;
+                 color: black;
+                 border-radius: 50px;
+                 font-size: 12px; 
+                 font-weight: 400;
+                 
+              }
+              .welcome h5{
+                color: white;
+                font-size: 15px;
+                text-shadow: 3px 3px 7px black;
+            }
+            .welcome P{
+              font-size: 11px;  
+            }
+              .footer1 a{
+               font-size: 14px;
+            }
+              .footer i{
+                margin:0px 4px;
+                font-size: 18px;
+            }
+            .cop p{
+                font-size: 11px;
+            }
+              .spa{
+                font-weight: 800;
+                font-size: 18px;   
+            }
+            .spa2 img{
+                width: 50px;
+
+            }
+
+        }
+        @media(max-width: 295px){
+            .push{
+                flex-wrap: wrap;
+                margin: -50%;
+                margin-top: 20px;
+                height: 78%;
+            }
+      
+        }
