@@ -554,7 +554,7 @@ text-decoration: none;
             }
             .push{
                 flex-wrap: wrap;
-                margin: -16%;
+                margin: 30px;
                 margin-top: 20px;
                 height: 80%;
 
@@ -602,8 +602,8 @@ text-decoration: none;
             }
             .push{
                 flex-wrap: wrap;
-                margin: -23%;
-                margin-top: 20px;
+                margin: 10px 30px 10px 30px;
+                /* margin-top: 20px; */
                 height: 80%;
             }
             .push img{
@@ -620,7 +620,8 @@ text-decoration: none;
         @media(max-width: 380px){
             .push{
                 flex-wrap: wrap;
-                margin:-5% -26%;
+                /* margin:-5% -26%; */
+                margin: 30px;
                 margin-top: 20px;
                 height: 80%;
 
@@ -643,7 +644,7 @@ text-decoration: none;
             }
             .push{
                 flex-wrap: wrap;
-                margin:-5% -30%;
+                margin:30px;
                 margin-top: 20px;
                 height: 80%;
 
@@ -665,7 +666,7 @@ text-decoration: none;
             }
             .push{
                 flex-wrap: wrap;
-                margin: -38%;
+                margin: 30px;
                 margin-top: 20px;
                 height: 78%;
             }
@@ -719,7 +720,7 @@ text-decoration: none;
         @media(max-width: 295px){
             .push{
                 flex-wrap: wrap;
-                margin: -50%;
+                margin: 30px;
                 margin-top: 20px;
                 height: 78%;
             }
