@@ -263,23 +263,23 @@ text-decoration: none;
     font-size: 15px;
   }  
 .one label{
-    color: goldenrod;  
+    color: white;  
 }
 .two label{
-    color: goldenrod;  
+    color: white;  
 }
 .bt button{
    padding: 8px 50px; 
    border: none;
    background-color: transparent;
    border: 2px solid white;
-   color: goldenrod;
+   color: white;
    border-radius: 20px;
 }
 .bt button:hover{
     background-color: gainsboro;
     color: black;
-    border: 2px solid goldenrod;
+    border: 2px solid white;
     font-weight: 700;
 }
 .fa-arrow-right{
@@ -293,7 +293,7 @@ text-decoration: none;
     font-size: 35px;
 }
 .footer1 a{
-    color: goldenrod;
+    color: white;
     text-decoration: none;
 }
 .footer1 a:hover{
